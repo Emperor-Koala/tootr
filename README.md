@@ -1,16 +1,56 @@
-# tootr
+# TOOTR
 
-Tracker for Ocarina of Time Randomizer
+A Cross-Platform <u>T</u>racker for <u>O</u>carina <u>o</u>f <u>T</u>ime <u>R</u>andomizer
 
-## Getting Started
+### NOTE
+<b>THIS TRACKER IS STILL IN DEVELOPMENT!</b> These are the platforms this tracker is planned to support:
 
-This project is a starting point for a Flutter application.
+<li>❌ Windows</li>
+<li>❌ MacOS</li>
+<li>❌ Linux</li>
+<li>❌ iOS</li>
+<li>❌ Android</li>
 
-A few resources to get you started if this is your first Flutter project:
+It is not currently available on mobile due to copyright issues from using the OoT 3D assets, and it is currently unavailable on desktop because I need to upgrade my development environment. It will be available to download hopefully in the near future.
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+## How to use:
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+When you first load the tracker you'll immediately be greeted by a file selection screen:
+
+![Empty File Select](/screenshots/EmptyFileSelect.png?raw=true "Empty File Select")
+
+Just click on the `+` in the top-right to create a new file:
+
+![New File](/screenshots/NewFile.png?raw=true "New File")
+
+Once you've created a new file, and given it a name, you'll be taken into the main tracker:
+
+![New Tracker](/screenshots/NewTracker.png?raw=true "New Tracker")
+
+From here, just tap once on any item to toggle it on and/or increment its counter. If you make a mistake, it's no sweat! Simply double-tap on the item to toggle it off and/or decrement its counter.
+
+![Upper Tracker](/screenshots/UpperTracker.png?raw=true "Upper Tracker")
+
+This tracker also supports showing which temple has which medallion. To change the medallion that a temple has, long-press on the medallion icon:
+
+![Medallion Selector](/screenshots/MedallionSelector.png?raw=true "Medallion Selector")
+
+If you want to keep it the same, simply tap outside the box. Otherwise, select a medallion, and it will be shown as that temple's reward.
+
+![Lower Tracker](/screenshots/LowerTracker.png?raw=true "Lower Tracker")
+
+Each file will also automatically save any changes made, so you can always come back later!
+
+![File Select](/screenshots/FileSelect.png?raw=true "File Select")
+
+## Contributing
+
+Anyone is welcome to contribute to this project!
+
+To work on this project, you will need to make sure you have Flutter installed on your computer, as well as a suitable Development Environment. You can learn how to [get set up with Flutter here](https://flutter.dev/docs/get-started/install) or how to [setup a development environment here](https://flutter.dev/docs/get-started/editor).
+
+Once you have Flutter ready to go, simply fork this repository and make any changes you would like to contribute. Then simply open a pull-request, and I'll review it when I get the chance (should only take a few days to a week). 
+
+## Issues 
+
+If you experience any issues with this application, please don't hesitate to open an issue here on GitHub. Describe the problem in as much detail as you can, and provide steps to reproduce if possible.

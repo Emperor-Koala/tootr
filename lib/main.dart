@@ -18,6 +18,7 @@ class MyApp extends StatelessWidget {
       title: 'Flutter Demo',
       theme: ThemeData.dark(),
       home: MyHomePage(),
+      debugShowCheckedModeBanner: false,
     );
   }
 }
@@ -91,13 +92,14 @@ class _MyHomePageState extends State<MyHomePage> {
               files.add(sfile);
               await File('${(await getApplicationDocumentsDirectory()).path}/$fileName').writeAsString(jsonEncode(sfile.toJson()));
               setState((){});
+              Navigator.of(context).push(MaterialPageRoute(builder: (_) => Tracker(sfile)));
 
             },
           ),
         ],
       ),
       body: loaded
-          ? ListView(
+          ? files.isEmpty ? Center(child: Text('Click the \'+\' to create a new file!')) : ListView(
         itemExtent: kToolbarHeight,
         children: (files..sort((a, b) => a.fileName.compareTo(b.fileName))).map((e) => ListTile(
           title: Row(
@@ -108,7 +110,6 @@ class _MyHomePageState extends State<MyHomePage> {
             ],
           ),
           onTap: () {
-            // TODO
             Navigator.of(context).push(MaterialPageRoute(builder: (_) => Tracker(e)));
           },
         )).toList(),
