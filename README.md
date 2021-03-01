@@ -13,6 +13,12 @@ A Cross-Platform <u>T</u>racker for <u>O</u>carina <u>o</u>f <u>T</u>ime <u>R</u
 
 It is not currently available on mobile due to copyright issues from using the OoT 3D assets, and it is currently unavailable on desktop because I need to upgrade my development environment. It will be available to download hopefully in the near future.
 
+<b>Still to do:</b>
+<li>❌ Ability to delete file</li>
+<li>❌ Ability to rename file</li>
+<li>❌ Map Tracker</li>
+<li>❌ Randomizer Settings</li>
+
 ## How to use:
 
 When you first load the tracker you'll immediately be greeted by a file selection screen:
