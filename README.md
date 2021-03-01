@@ -17,31 +17,31 @@ It is not currently available on mobile due to copyright issues from using the O
 
 When you first load the tracker you'll immediately be greeted by a file selection screen:
 
-![Empty File Select](/screenshots/EmptyFileSelect.png?raw=true "Empty File Select")
+<img src="/screenshots/EmptyFileSelect.png?raw=true" width="256px" alt="Empty File Select"/>
 
 Just click on the `+` in the top-right to create a new file:
 
-![New File](/screenshots/NewFile.png "New File")
+<img src="/screenshots/NewFile.png?raw=true" width="256px" alt="New File" />
 
 Once you've created a new file, and given it a name, you'll be taken into the main tracker:
 
-![New Tracker](/screenshots/NewTracker.png "New Tracker")
+<img src="/screenshots/NewTracker.png?raw=true" alt="New Tracker" width="256px" />
 
 From here, just tap once on any item to toggle it on and/or increment its counter. If you make a mistake, it's no sweat! Simply double-tap on the item to toggle it off and/or decrement its counter.
 
-![Upper Tracker](/screenshots/UpperTracker.png "Upper Tracker")
+<img src="/screenshots/UpperTracker.png?raw=true" width="256px" alt="Upper Tracker" />
 
 This tracker also supports showing which temple has which medallion. To change the medallion that a temple has, long-press on the medallion icon:
 
-![Medallion Selector](/screenshots/MedallionSelector.png "Medallion Selector")
+<img src="/screenshots/MedallionSelector.png?raw=true" width="256px" alt="Medallion Selector" />
 
 If you want to keep it the same, simply tap outside the box. Otherwise, select a medallion, and it will be shown as that temple's reward.
 
-![Lower Tracker](/screenshots/LowerTracker.png "Lower Tracker")
+<img src="/screenshots/LowerTracker.png?raw=true" width="256px" alt="Lower Tracker" />
 
 Each file will also automatically save any changes made, so you can always come back later!
 
-![File Select](/screenshots/FileSelect.png "File Select")
+<img src="/screenshots/FileSelect.png?raw=true" width="256px" alt="File Select" />
 
 ## Contributing
 
