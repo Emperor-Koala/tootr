@@ -1,6 +1,13 @@
 # TOOTR
 
-A Cross-Platform <u>T</u>racker for <u>O</u>carina <u>o</u>f <u>T</u>ime <u>R</u>andomizer
+A Cross-Platform
+
+Tracker for  
+Ocarina  
+Of  
+Time  
+Randomizer  
+
 
 ### NOTE
 <b>THIS TRACKER IS STILL IN DEVELOPMENT!</b> These are the platforms this tracker is planned to support:
